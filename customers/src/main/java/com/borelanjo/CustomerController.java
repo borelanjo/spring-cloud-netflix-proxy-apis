@@ -22,6 +22,7 @@ public class CustomerController {
 
     @GetMapping
     public List<String> findAll() {
+        System.out.println("findAll Executado");
         return new ArrayList<>(CUSTOMERS.values());
     }
 
