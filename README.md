@@ -32,7 +32,7 @@ Service Discovery (Eureka)
 - ```cd eureka```
 - ```mvn spring-boot:run```
 
-Proxy (Zuul)
+Proxy (Gateway)
 - ```cd zuul```
 - ```mvn spring-boot:run```
 
@@ -98,9 +98,9 @@ customer-service:
     EUREKA_DEFAULT_ZONE: 'http://eureka-service:8761/eureka'
 ```
 
-#### Via Proxy (Zuul)
-- http://localhost:8080/api/products
-- http://localhost:8080/api/customers
+#### Via Proxy (Gateway)
+- http://localhost:8080/products
+- http://localhost:8080/customers
 - http://localhost:8080/sellers
 - http://localhost:8080/stores
 - http://localhost:8080/suppliers
