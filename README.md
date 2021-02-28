@@ -33,7 +33,7 @@ Service Discovery (Eureka)
 - ```mvn spring-boot:run```
 
 Proxy (Gateway)
-- ```cd zuul```
+- ```cd gateway```
 - ```mvn spring-boot:run```
 
 API de Customers
