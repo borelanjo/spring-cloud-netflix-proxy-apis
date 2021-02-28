@@ -28,6 +28,17 @@ API de Products
 - ```cd products```
 - ```mvn spring-boot:run```
 
+API de Sellers
+- ```cd sellers```
+- ```mvn spring-boot:run```
+
+API de Stores
+- ```cd stores```
+- ```mvn spring-boot:run```
+
+API de Suppliers
+- ```cd suppliers```
+- ```mvn spring-boot:run```
 
 Acessando Eureka: http://localhost:8761
 ````
@@ -44,8 +55,14 @@ ZUUL	      n/a (1)	(1)	UP (1) - 192.168.11.247:zuul:8080
 #### Diretamente
 - http://localhost:8070/products
 - http://localhost:8060/customers
+- http://localhost:8096/sellers
+- http://localhost:8098/stores
+- http://localhost:8097/suppliers
 
 #### Via Proxy (Zuul)
 - http://localhost:8080/api/products
 - http://localhost:8080/api/customers
+- http://localhost:8080/sellers
+- http://localhost:8080/stores
+- http://localhost:8080/suppliers
 
