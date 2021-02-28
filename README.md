@@ -1,6 +1,8 @@
 # spring-cloud-netflix-proxy-apis
 [Criando proxy de APIs com Spring cloud, Zuul e Eureka](https://wp.me/p5RSbg-kW)
 
+O Zuul não tem suporte na versão mais atual do spring-boot, por isso nesse fork ele foi substituido 
+pelo `spring-cloud-gateway`
 ## Pré requisito
 - Maven 3
 - Java 15
