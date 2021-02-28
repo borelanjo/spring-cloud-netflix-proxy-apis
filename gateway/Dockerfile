@@ -8,5 +8,6 @@ RUN mvn package -Dmaven.test.skip=true
 COPY target/ /build/target/
 
 FROM openjdk:15-alpine
+EXPOSE 8080
 COPY --from=MAVEN_BUILD /build/target/*.jar app.jar
 ENTRYPOINT ["java","-jar","/app.jar"]
