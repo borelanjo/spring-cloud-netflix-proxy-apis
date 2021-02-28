@@ -1,4 +1,4 @@
-package br.com.emmanuelneri;
+package com.borelanjo;
 
 import com.google.common.collect.ImmutableMap;
 import org.springframework.web.bind.annotation.GetMapping;

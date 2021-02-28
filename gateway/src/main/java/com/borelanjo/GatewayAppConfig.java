@@ -1,4 +1,4 @@
-package br.com.emmanuelneri;
+package com.borelanjo;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -6,10 +6,11 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 
 @SpringBootApplication
 @EnableDiscoveryClient
-public class ProductsAppConfig {
+public class GatewayAppConfig {
 
     public static void main(String[] args) {
-        SpringApplication.run(ProductsAppConfig.class, args);
+        SpringApplication.run(GatewayAppConfig.class, args);
     }
+
 
 }
